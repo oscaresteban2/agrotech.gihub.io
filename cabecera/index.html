@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>agrotech</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" height="130px" width="auto" ></a>
+        </div>
+        
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="banner">
+        <h2>agrotech</h2>
+        <p>proyecto del futuro</p>
+        <a href="#productos" class="button">sobre nosotros</a>
+      </section>
+      <section id="productos">
+        <h2>sobre nosotros</h2>
+        <ul>
+          <li>
+            <img src="img/imagen2.jpg" alt="Tomates">
+            <h3>objetivo general</h3>
+            <p>Desarrollar e implementar una huerta automatizada, por medio de una aplicación móvil que
+              permita el monitoreo y cuidado remoto de una planta de fresa en un primer momento, para en
+              un futuro llevarla a una mayor variedad de frutas y verduras.
+              </p>
+          </li>
+          <li>
+            <img src="img/imagen3.jpg" alt="Lechugas">
+            <h3>Objetivos Específicos</h3>
+            <p>Desarrollar un prototipo amigable con el medio ambiente, que utilice materiales
+              reciclados, con tecnologías sustentables para minimizar el impacto negativo al medio
+              ambiente.
+             </p>
+          </li>
+          <li>
+            <img src="zanahorias.jpg" alt="Zanahorias">
+            <h3>Zanahorias</h3>
+            <p>Zanahorias dulces y jugosas, ideales para sopas y guisos.</p>
+          </li>
+          <li>
+            <img src="tomates.jpg" alt="Tomates">
+            <h3>Tomates</h3>
+            <p>Tomates frescos y maduros, ideales para ensaladas y salsas.</p>
+          </li>
+        </ul>
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 agrotech. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
